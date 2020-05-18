@@ -4,7 +4,7 @@
 /* вторичный цвет фона #F5F4FA */
 /* черный #212121 */
 /* акцент синий #2196F3 */
-/* цвет основной футер rgba(255, 255, 255, 0.6) */
+/* фон футера rgba(255, 255, 255, 0.6) */
 
 :root {
   --primary-text-color: #757575;
@@ -32,19 +32,58 @@ body {
   list-style: none;
 }
 
+.section-title {
+  color: var(--title-text-color);
+}
+
 .container {
   margin-left: auto;
   margin-right: auto;
-  width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 1170px;
   outline: 2px solid tomato;
 }
 
+/* header */
 /* logo */
 .logo {
-  color: var(--title-text-color);
+  color: var(--accent-color);
   font-family: Raleway, sans-serif;
   font-size: 26px;
   font-weight: 700;
-  line-height: 1.2;
+  line-height: 1.19;
   text-decoration: none;
 }
+
+.logo .last-name {
+  color: var(--title-text-color);
+}
+
+/* site-nav */
+.site-nav .link {
+  color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+/* features */
+
+.features-list .title {
+  color: var(--title-text-color);
+}
+
+/* team */
+.team-list .title {
+  color: var(--title-text-color);
+}
+
+.team-list .link:hover,
+.team-list .link:focus {
+  color: var(--accent-color);
+}
+
+/* customers */
