@@ -13,33 +13,38 @@
   <body>
     <!--шапка сайта-->
     <header>
-      <div>
-        <a href="./index.html"> <span>Web</span> Studio</a>
-        <ul>
-          <li>
-            <a href="">Студия</a>
-          </li>
-          <li>
-            <a href="./portfolio.html">Портфолио</a>
-          </li>
-          <li>
-            <a href="">Контакты</a>
-          </li>
-        </ul>
-
-        <ul>
-          <li>
-            <a href="mailtoinfo@devstudio.com">info@devstudio.com</a>
-          </li>
-          <li>
-            <a href="tel:380961111111">+38 096 111 11 11</a>
-          </li>
-        </ul>
-      </div>
+      <div class="container">
+       <nav>
+          <a href="./index.html" class="logo">
+            <span class="first-name">Web</span> 
+            <span class="last-name"> Studio</span>
+          </a>
+          <ul class="site-nav list">
+            <li>
+              <a href="/" class="link">Студия</a>
+            </li>
+            <li>
+              <a href="./portfolio.html" class="link">Портфолио</a>
+            </li>
+            <li>
+              <a href="" class="link">Контакты</a>
+            </li>
+          </ul>
+          
+          <ul class="auth-nav list">
+            <li>
+              <a href="mailtoinfo@devstudio.com">info@devstudio.com</a>
+            </li>
+            <li>
+              <a href="tel:380961111111">+38 096 111 11 11</a>
+            </li>
+          </ul>
+          </div>
+       </nav>
     </header>
 
     <!--герой-->
-    <div>
+    <div class="container">
       <h1>
         эффективные решения <br />
         для вашего бизнеса
@@ -48,33 +53,34 @@
     </div>
 
     <main>
-      <section>
+      <section class="section">
         <!--особенности-->
-        <div>
-          <ul>
+        <div class="container">
+          <h2 class="section-title">Особенности</h2>
+          <ul class="features-list list">
             <li>
-              <h3>Внимание к деталям</h3>
+              <h3 class="title">Внимание к деталям</h3>
               <p>
                 Идейные соображения, а также начало повседневной работы по
                 формированию позиции.
               </p>
             </li>
             <li>
-              <h3>Пунктуальность</h3>
+              <h3 class="title">Пунктуальность</h3>
               <p>
                 Задача организации, в особенности же рамки и место обучения
                 кадров влечет за собой.
               </p>
             </li>
             <li>
-              <h3>Планирование</h3>
+              <h3 class="title">Планирование</h3>
               <p>
                 Равным образом консультация с широким активом в значительной
                 степени обуславливает.
               </p>
             </li>
             <li>
-              <h3>Современные технологии</h3>
+              <h3 class="title">Современные технологии</h3>
               <p>
                 Значимость этих проблем настолько очевидна, что реализация
                 плановых заданий.
@@ -85,43 +91,24 @@
       </section>
 
       <!--деятельность-->
-      <section>
-        <div>
-          <h2>Чем мы занимаемся</h2>
-
-          <ul>
+      <section class="section">
+        <div class="container">
+          <h2 class="section-title">Чем мы занимаемся</h2>
+          <ul class="list">
             <li>
-              <a href=""
-                ><img
-                  src="./images/image1.jpg"
-                  alt="картинка1"
-                  width="380"
-                  height="294"
-                />
+              <a href=""><img src="./images/image1.jpg" alt="картинка1" width="380"/>
                 <p>Десктопные приложения</p>
               </a>
             </li>
 
             <li>
-              <a href=""
-                ><img
-                  src="./images/image2.jpg"
-                  alt="картинка2"
-                  width="380"
-                  height="294"
-                />
+              <a href=""><img src="./images/image2.jpg" alt="картинка2" width="380"/>
                 <p>Мобильные приложения</p>
               </a>
             </li>
 
             <li>
-              <a href=""
-                ><img
-                  src="./images/image3.jpg"
-                  alt="картинка3"
-                  width="380"
-                  height="294"
-                />
+              <a href=""><img src="./images/image3.jpg" alt="картинка3" width="380"/>
                 <p>Дизайнерские решения</p>
               </a>
             </li>
@@ -130,106 +117,86 @@
       </section>
 
       <!--команда-->
-      <section>
-        <div>
-          <h3>Наша команда</h3>
-          <ul>
+      <section class="section">
+        <div class="container">
+          <h2 class="section-title">Наша команда</h2>
+          <ul class="team-list list">
             <li>
-              <img
-                src="./images/john.jpg"
-                alt="фото1"
-                width="278"
-                height="260"
-              />
-              <h4>John Smith</h4>
+              <img src="./images/john.jpg" alt="фото1" width="278"/>
+              <h3 class="title">John Smith</h4>
               <p>Product Designer</p>
-              <ul>
+              <ul class="list">
                 <li>
-                  <a href="" aria-label="ссылка на Instagram">Instagram</a>
+                  <a href="" class="link" aria-label="ссылка на Instagram">Instagram</a>
                 </li>
                 <li>
-                  <a href="" aria-label="ссылка на Twitter">Twitter</a>
+                  <a href="" class="link" aria-label="ссылка на Twitter">Twitter</a>
                 </li>
                 <li>
-                  <a href="" aria-label="ссылка на Facebook">Facebook</a>
+                  <a href="" class="link" aria-label="ссылка на Facebook">Facebook</a>
                 </li>
                 <li>
-                  <a href="" aria-label="ссылка на Linkedin">Linkedin</a>
+                  <a href="" class="link" aria-label="ссылка на Linkedin">Linkedin</a>
                 </li>
               </ul>
             </li>
 
             <li>
-              <img
-                src="./images/martha.jpg"
-                alt="фото2"
-                width="278"
-                height="260"
-              />
-              <h4>Marta Stewart</h4>
+              <img src="./images/martha.jpg" alt="фото2" width="278"/>
+              <h3 class="title">Marta Stewart</h4>
               <p>Frontend Developer</p>
-              <ul>
+              <ul class="list">
                 <li>
-                  <a href="" aria-label="ссылка на Instagram">Instagram</a>
+                  <a href="" class="link" aria-label="ссылка на Instagram">Instagram</a>
                 </li>
                 <li>
-                  <a href="" aria-label="ссылка на Twitter">Twitter</a>
+                  <a href="" class="link" aria-label="ссылка на Twitter">Twitter</a>
                 </li>
                 <li>
-                  <a href="" aria-label="ссылка на Facebook">Facebook</a>
+                  <a href="" class="link" aria-label="ссылка на Facebook">Facebook</a>
                 </li>
                 <li>
-                  <a href="" aria-label="ссылка на Linkedin">Linkedin</a>
+                  <a href="" class="link" aria-label="ссылка на Linkedin">Linkedin</a>
                 </li>
               </ul>
             </li>
 
             <li>
-              <img
-                src="./images/robert.jpg"
-                alt="фото3"
-                width="278"
-                height="260"
-              />
-              <h4>Robert Jakis</h4>
+              <img src="./images/robert.jpg" alt="фото3" width="278"/>
+              <h3 class="title">Robert Jakis</h4>
               <p>Marketing</p>
-              <ul>
+              <ul class="list">
                 <li>
-                  <a href="" aria-label="ссылка на Instagram">Instagram</a>
+                  <a href="" class="link" aria-label="ссылка на Instagram">Instagram</a>
                 </li>
                 <li>
-                  <a href="" aria-label="ссылка на Twitter">Twitter</a>
+                  <a href="" class="link" aria-label="ссылка на Twitter">Twitter</a>
                 </li>
                 <li>
-                  <a href="" aria-label="ссылка на Facebook">Facebook</a>
+                  <a href="" class="link" aria-label="ссылка на Facebook">Facebook</a>
                 </li>
                 <li>
-                  <a href="" aria-label="ссылка на Linkedin">Linkedin</a>
+                  <a href="" class="link" aria-label="ссылка на Linkedin">Linkedin</a>
                 </li>
               </ul>
             </li>
 
             <li>
-              <img
-                src="./images/martin.jpg"
-                alt="фото4"
-                width="278"
-                height="260"
-              />
-              <h4>Martin Doe</h4>
+              <img src="./images/martin.jpg" alt="фото4" width="278"/>
+              <h3 class="title">Martin Doe</h4>
               <p>UI Designer</p>
-              <ul>
+              <ul class="list">
                 <li>
-                  <a href="" aria-label="ссылка на Instagram">Instagram</a>
+                  <a href="" class="link" aria-label="ссылка на Instagram">Instagram</a>
                 </li>
                 <li>
-                  <a href="" aria-label="ссылка на Twitter">Twitter</a>
+                  <a href="" class="link" aria-label="ссылка на Twitter">Twitter</a>
                 </li>
                 <li>
-                  <a href="" aria-label="ссылка на Facebook">Facebook</a>
+                  <a href="" class="link" aria-label="ссылка на Facebook">Facebook</a>
                 </li>
                 <li>
-                  <a href="" aria-label="ссылка на Linkedin">Linkedin</a>
+                  <a href="" class="link" aria-label="ссылка на Linkedin">Linkedin</a>
                 </li>
               </ul>
             </li>
@@ -238,27 +205,27 @@
       </section>
 
       <!--клиенты-->
-      <section>
-        <div>
-          <h2>Постоянные клиенты</h2>
-          <ul>
+      <section class="section">
+        <div class="container">
+          <h2 class="section-title">Постоянные клиенты</h2>
+          <ul class="customers-list list">
             <li>
-              <a href=""><img src="./images/logo1.svg" alt="клиент1" /></a>
+              <a href=""><img src="./images/logo1.svg" alt="клиент1"/></a>
             </li>
             <li>
-              <a href=""><img src="./images/logo2.svg" alt="клиент2" /></a>
+              <a href=""><img src="./images/logo2.svg" alt="клиент2"/></a>
             </li>
             <li>
-              <a href=""><img src="./images/logo3.svg" alt="клиент3" /></a>
+              <a href=""><img src="./images/logo3.svg" alt="клиент3"/></a>
             </li>
             <li>
-              <a href=""><img src="./images/logo4.svg" alt="клиент4" /></a>
+              <a href=""><img src="./images/logo4.svg" alt="клиент4"/></a>
             </li>
             <li>
-              <a href=""><img src="./images/logo5.svg" alt="клиент5" /></a>
+              <a href=""><img src="./images/logo5.svg" alt="клиент5"/></a>
             </li>
             <li>
-              <a href=""><img src="./images/logo6.svg" alt="клиент6" /></a>
+              <a href=""><img src="./images/logo6.svg" alt="клиент6"/></a>
             </li>
           </ul>
         </div>
